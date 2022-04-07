@@ -4,7 +4,7 @@ body {
     background-color: blanchedalmond;
 }
 
-.gameboard {
+#gameboard {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 3px solid black;
@@ -12,7 +12,8 @@ body {
     height: 600px;
 }
 
-#section {
+#one, #two, #three, #four, #five,
+#six, #seven, #eight, #nine {
     display: grid;
     align-items: center;
     justify-items: center;
